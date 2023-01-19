@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(230, 230, 230);
+}
+
+.listProd_container{
+
+    display: flex;
+    height: max-content;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    margin-left: 5.5em;
+    padding-top: 5em;
+}
+
+
+.listProd_container h2{
+    margin: 30px 30px;
+    align-self: center;
+    font-size: 30px;
+}
+
+.listProd_container input{
+
+    border: 2px solid gray;
+    background-color: rgb(243, 242, 242);
+    width: 56.2em;
+    margin-left: 0.2em;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+
+}
+
+.printButton{
+    background-color: rgb(29, 29, 29);
+    width: 8em;
+    height: 2em;
+    display: flex;
+    position: absolute;
+    border-radius: 5px;
+    color: rgb(230, 230, 230);
+    justify-content: center;
+    align-self: flex-end;
+
+    
+}
+
+.printButton p{
+    margin-top: 5px;
+    margin-left: 5px;
+
+}
+
+.productData_container{
+    width: max-content;
+    margin-left: 0.2em;
+    margin-bottom: 20px;
+
+    border: solid 1px gray;
+    border-radius: 5px;
+    display: flex;
+
+}
+
+
+.productData_container div div{
+    display: flex;
+    background-color: rgb(243, 242, 242);
+
+}
+
+.productData_container div p{
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.id_container{
+    line-height: 100px;
+    background-color: rgb(243, 242, 242);
+}
+.listProd_id{
+    width: 6em;
+    text-align: center;
+    height: 7.5em;
+
+}
+.listProd_name{
+    width: 18em;
+    height: 2.5em;
+}
+.listProd_fiscode{
+    width: 18em;
+    height: 2.5em;
+}
+.listProd_specie{
+    width: 28em;
+    height: 2.5em;
+}
+.listProd_descript{
+    width: 36em;
+}
+.listProd_code{
+    width: 28em;
+}
+.listProd_createdAt{
+    height: 2.5em;
+    width: 18em;
+}
+.listProd_createdBy{
+    width: 14em;
+}

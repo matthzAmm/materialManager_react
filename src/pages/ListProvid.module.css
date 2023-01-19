@@ -1,0 +1,109 @@
+.listProv_container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    padding-top: 5em;
+    margin-left: 5.5em;
+}
+
+.listProv_container h2{
+    margin: 30px 30px;
+    align-self: center;
+    font-size: 30px;
+}
+
+.printButton{
+    background-color: rgb(29, 29, 29);
+    width: 8em;
+    height: 2em;
+    display: flex;
+    position: absolute;
+
+    border-radius: 5px;
+    color: rgb(230, 230, 230);
+    justify-content: center;
+    align-self: flex-end;
+
+    
+}
+
+.printButton p{
+    margin-top: 5px;
+    margin-left: 5px;
+
+}
+
+.listProv_container input{
+
+    border: 2px solid gray;
+    background-color: rgb(243, 242, 242);
+    width: 56.2em;
+    margin-left: 0.2em;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+
+}
+
+.MaterialData_container{
+    width: max-content;
+    margin-left: 0.2em;
+    margin-bottom: 20px;
+    border: solid 1px gray;
+    border-radius: 5px;
+
+}
+
+
+.provData_container{
+    width: max-content;
+    margin-left: 0.2em;
+    margin-bottom: 20px;
+    border: solid 1px gray;
+    border-radius: 5px;
+    display: flex;
+}
+
+.provData_container div div{
+    display: flex;
+    background-color: rgb(243, 242, 242);
+
+}
+
+.provData_container div p{
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.id_container{
+    line-height: 60px;
+    background-color: rgb(243, 242, 242);
+}
+
+.provId{
+    width: 6em;
+    text-align: center;
+    height: 5em;
+}
+
+.provName{
+    width: 18em;
+    height: 2.5em;
+}
+.provCnpj{
+    width: 22em;
+    height: 2.5em;
+}
+.provCep{
+    width: 24em;
+    height: 2.5em;
+}
+.provQrcode{
+    width: 40em;
+}
+.provDate{
+    width: 24em;
+}

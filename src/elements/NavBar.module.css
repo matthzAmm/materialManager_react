@@ -1,0 +1,31 @@
+
+.navbar_container{
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    background-color: rgb(29, 29, 29);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    justify-content: space-between;
+    z-index: 1;
+
+}
+
+.navbar_container div{
+    display: flex;
+}
+
+.navbar_link{
+    text-decoration: none;
+    padding-right: 30px;
+    padding-left: 20px;
+}
+
+
+
+.navbar_link h2{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(230, 230, 230);
+
+}

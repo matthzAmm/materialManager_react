@@ -1,0 +1,78 @@
+.regProduct_container{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5em;
+
+}
+
+.regProduct_container h2{
+    margin: 30px 30px;
+    font-size: 30px;
+
+}
+
+.regProduct_container input{
+    border: 1px solid gray;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+    width: 30em;
+
+}
+
+.regProduct_container label{
+    border: 1px solid gray;
+    text-align: start;
+    background-color: white;
+    color: gray;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+    width: 30em;
+    
+}
+
+.regProduct_container select{
+    border: 1px solid gray;
+    color: gray;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+    width: 30em;
+
+}
+
+.regSucess{
+    width: 37.5em;
+    margin-top: 40px;
+    padding: 20px 0px 20px;
+    border-radius: 5px;
+    background-color: rgb(188, 247, 160);
+
+}
+
+.regLink{
+    text-decoration: none;
+    color: rgb(66, 148, 28); 
+
+}
+
+.regFail{
+    width: 37.5em;
+    margin-top: 40px;
+    padding: 20px 0px 20px;
+    border-radius: 5px;
+    background-color: rgb(252, 126, 126); 
+
+}
+
+.regFailLink{
+    text-decoration: none;
+    color: rgb(148, 28, 28); 
+    
+}

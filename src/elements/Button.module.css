@@ -1,0 +1,23 @@
+.btn_container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: rgb(29, 29, 29);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btn{
+
+    color: rgb(230, 230, 230);
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 2px;
+    
+}
+
+.btn:hover{
+    color: rgb(73, 250, 147);
+}
